@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block the_body %}
+
+    <form method="POST" action="/feedback">
+        Name: <input type="text" name="the_name"><br>
+        Email: <input type="text" name="the_email"><br>
+        Comment: <input type="text" name="the_comment"><br>
+        <input type="submit" value="Do it!">
+    </form>
+{% endblock %}
